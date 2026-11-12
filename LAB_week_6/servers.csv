@@ -1,0 +1,7 @@
+hostname,used_gb,total_gb
+srv-01,87,120
+srv-02,118,120
+srv-03,45,200
+srv-04,178,180
+srv-05,12,500
+srv-06,95,100
