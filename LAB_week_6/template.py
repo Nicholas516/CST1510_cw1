@@ -35,7 +35,7 @@ df["status"] = df["percent"].apply(
 # 3. Show the whole table so we can eyeball percent and status.
 print(df)
 
-# Only show the rows that aren't "OK" — i.e. ones that need attention.
+# Only show the rows that aren't "OK"
 # Boolean filter on the status column, no loops.
 not_ok = df[df["status"] != "OK"]
 print("\nRows that are NOT OK:")
